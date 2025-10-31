@@ -1,0 +1,20 @@
+{
+  "name": "kitchen",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm-run-all --parallel client:dev server:dev",
+    "client:dev": "npm --prefix ./client/ run dev",
+    "server:dev": "npm --prefix ./server/ run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "moment": "^2.30.1",
+    "npm-run-all": "^4.1.5",
+    "react-simple-star-rating": "^5.1.7"
+  }
+}
